@@ -1,0 +1,98 @@
+﻿<Window x:Class="IMDBFinalProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Movie Management App" Height="600" Width="800"
+        Background="Black">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="ArtistsImage" UriSource="/Images/artists.png"></BitmapImage>
+            <BitmapImage x:Key="MoviesImage" UriSource="/Images/movies.png"></BitmapImage>
+            <BitmapImage x:Key="TVShowsImage" UriSource="/Images/tvshows.png"></BitmapImage>
+            <BitmapImage x:Key="ExitImage" UriSource="/Images/exit.png"></BitmapImage>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- MenuBar -->
+        <Menu DockPanel.Dock="Top" Background="#F5C518">
+            <MenuItem Header="File">
+                <MenuItem x:Name="ExitMenu" Header="_Exit" Click="ExitMenu_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource ExitImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Pages">
+                <MenuItem x:Name="ArtistsMenu" Header="_Artists" Click="ArtistsMenuButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource ArtistsImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="MoviesMenu" Header="_Movies" Click="MoviesMenuButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource MoviesImage}"  />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="TVShowsMenu" Header="_TV Shows" Click="TVShowsMenuButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource TVShowsImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <!-- Main Content Area -->
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <!-- App Title -->
+                <RowDefinition Height="*" />
+                <!-- Main content area -->
+                <RowDefinition Height="Auto" />
+                <!-- Bottom buttons area -->
+            </Grid.RowDefinitions>
+
+            <!-- App Title -->
+            <TextBlock Grid.Row="0"
+                       Text="Movie Management App"
+                       Foreground="#F5C518"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Margin="10" />
+
+            <!-- Main Frame for navigation -->
+            <Frame x:Name="mainFrame" Grid.Row="1" NavigationUIVisibility="Hidden" />
+
+            <!-- Buttons in a StackPanel -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10">
+                <!-- Artist Button -->
+                <Button Width="100" Height="100" Margin="20" Background="#F5C518" Foreground="Black" Click="ArtistsMenuButton_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="{StaticResource ArtistsImage}" Width="75" />
+                        <TextBlock Text="Artists" HorizontalAlignment="Center" FontWeight="Bold" />
+                    </StackPanel>
+                </Button>
+                <!-- Movie Button -->
+                <Button Width="100" Height="100" Margin="20" Background="#F5C518" Foreground="Black" Click="MoviesMenuButton_Click" >
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="{StaticResource MoviesImage}" Width="75" />
+                        <TextBlock Text="Movies" HorizontalAlignment="Center" FontWeight="Bold" />
+                    </StackPanel>
+                </Button>
+                <!-- TV Show Button -->
+                <Button Width="100" Height="100" Margin="20" Background="#F5C518" Foreground="Black" Click="TVShowsMenuButton_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                        <Image Source="{StaticResource TVShowsImage}" Width="75" />
+                        <TextBlock Text="TV Shows" HorizontalAlignment="Center" FontWeight="Bold" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

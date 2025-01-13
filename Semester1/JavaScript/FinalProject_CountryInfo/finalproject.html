@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>PROG1700 (Callie Pretty) - Final Project</title>
+        <script type="module" src="script.js"></script>
+    </head>
+<body onload="javascript:populateCountryDropdown()">
+
+<h2>Countries of the World</h2>
+
+<form id="countryInfoForm">
+    <label for="countrySelection">Please choose a country from the list</label><br>
+    <select id="countrySelection" name="countrySelection" onChange="getCountryInfo()">
+        <option value="">Select a country</option>
+    </select><br><br>
+
+    <label for="countryInfo">Country Info:</label><br><br>
+    <div id = "flag-container"></div><br><br>
+    
+    <label for="population">Population: </label><br>
+    <input type = text id="population" value=""><br><br><br>
+    
+
+    <label for="areaSelection">Area:</label><br>
+    <input type="text" id="areaSelection" value="">
+    <select id="unitSelection" name="unitSelection">
+        <option value="miles">mi²</option>
+        <option value="kilometres">km²</option>  
+    </select><br><br><br>
+
+    <label for="populationDensity"><br>Please click unit of measurement <br>to see the Population Density:</label><br>
+    <input type="radio" name="option" value="squareMi">people per mi²<br>
+    <input type="radio" name="option" value="squareKm">people per km²<br>
+    <input type="text" id="densityOutput" value=""><br><br><br>
+
+    <label for="populationPercent">Percentage of world population:</label><br>
+    <input type="text" id="populationPercent" value=""><br><br>
+
+    <a id="wikiPage" href="" target="_"><input type="button" value="Wikipedia Page" onclick="getWikiPage()"></a>
+
+</form>
+
+</body>
+</html>

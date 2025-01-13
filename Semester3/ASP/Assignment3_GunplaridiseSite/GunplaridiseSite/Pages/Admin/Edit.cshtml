@@ -1,0 +1,72 @@
+﻿@page
+@model GunplaridiseSite.Pages.Admin.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+@{
+    string imagePath = "/uploads/" + Model.Gunpla.ImageFilename;
+}
+
+<h4>Gunpla</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <img src="@imagePath" class="img-fluid" />
+
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Gunpla.GunplaId" />
+
+            <div class="mb-3">
+                <label asp-for="FileUpload" class="form-label"></label><br>
+                <input asp-for="FileUpload" class="form-control" />
+                <span asp-validation-for="FileUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gunpla.GunplaName" class="control-label"></label>
+                <input asp-for="Gunpla.GunplaName" class="form-control" />
+                <span asp-validation-for="Gunpla.GunplaName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+				<label asp-for="Gunpla.Grade.GradeId" class="control-label"></label>
+				<select asp-for="Gunpla.Grade.GradeId" class="form-control" asp-items="Model.GradeOptions"></select>
+				<span asp-validation-for="Gunpla.Grade.GradeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gunpla.Description" class="control-label"></label>
+                <input asp-for="Gunpla.Description" class="form-control" />
+                <span asp-validation-for="Gunpla.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gunpla.ReleaseDate" class="control-label"></label>
+                <input asp-for="Gunpla.ReleaseDate" class="form-control" />
+                <span asp-validation-for="Gunpla.ReleaseDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Gunpla.Price" class="control-label"></label>
+                <input asp-for="Gunpla.Price" class="form-control" />
+                <span asp-validation-for="Gunpla.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

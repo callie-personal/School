@@ -1,0 +1,17 @@
+﻿@page
+@model LastAirbenderCollection.Pages.CharacterAdmin.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="pin-container">
+	@foreach (var character in Model.Characters)
+	{
+		string imagePath = $"images/{character.FileName}";
+
+		<div class="pin">
+			<a asp-page="DisplayPhoto" asp-route-id="@character.CharacterId"></a>
+			<img src="@imagePath" alt="@character.Name" />
+		</div>
+	}
+</div>

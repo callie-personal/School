@@ -1,0 +1,30 @@
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe.config
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.pdb
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.AssemblyReference.cache
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.CalculatorApp.resources
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.Properties.Resources.resources
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.GenerateResource.cache
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.CoreCompileInputs.cache
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.exe
+C:\PROG2200\OffSequ\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.pdb
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe.config
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.pdb
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.AssemblyReference.cache
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.CalculatorApp.resources
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.Properties.Resources.resources
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.GenerateResource.cache
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.CoreCompileInputs.cache
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.exe
+C:\Users\W0304743\OneDrive - Nova Scotia Community College\Desktop\Lab1\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe.config
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.exe
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\bin\Debug\Calculator_TrivialApp.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.AssemblyReference.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.CalculatorApp.resources
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.Properties.Resources.resources
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.GenerateResource.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.csproj.CoreCompileInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.exe
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Calculator_TrivialApp\Calculator_TrivialApp\obj\Debug\Calculator_TrivialApp.pdb

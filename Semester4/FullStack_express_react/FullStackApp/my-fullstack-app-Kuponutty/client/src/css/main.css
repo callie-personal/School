@@ -1,0 +1,40 @@
+:root {
+    --jumbotron-padding-y: 2rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  .card-img-top {
+    height: auto; /* Keep height proportional to width */
+    max-width: 100%; /* Prevent overflow */
+    width: auto; /* Ensure the width adjusts based on the image's natural dimensions */
+    display: block; /* Remove inline spacing */
+    margin: 0 auto; /* Center the image inside the card */
+    object-fit: cover; /* Crop the image to fit, avoiding distortion */
+    border-radius: 5px; /* Optional: give the images rounded corners */
+  }
+  

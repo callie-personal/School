@@ -1,0 +1,14 @@
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\bin\Debug\net8.0\ClientSide.exe
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\bin\Debug\net8.0\ClientSide.deps.json
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\bin\Debug\net8.0\ClientSide.runtimeconfig.json
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\bin\Debug\net8.0\ClientSide.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\bin\Debug\net8.0\ClientSide.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfoInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfo.cs
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\refint\ClientSide.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ClientSide.genruntimeconfig.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ClientSide\obj\Debug\net8.0\ref\ClientSide.dll

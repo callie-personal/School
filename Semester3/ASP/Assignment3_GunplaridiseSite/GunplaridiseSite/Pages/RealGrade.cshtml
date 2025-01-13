@@ -1,0 +1,28 @@
+﻿@page
+@model GunplaridiseSite.Pages.RealGradeModel
+@{
+    var realGradeGunpla = Model.Gunpla.Where(g => g.Grade.GradeName == "Real Grade (RG)").ToList();
+}
+
+<h1>Real Grade Gunpla</h1>
+
+<div class="index_container">
+    <div class="row">
+        @foreach (var item in realGradeGunpla)
+        {
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="index_card center-bottom">
+                    <a href="./Details?id=@item.GunplaId">
+                        <img src="/uploads/@item.ImageFilename" class="card-img-top" />
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">@item.GunplaName</h6>
+                    </div>
+                    <div class="card-footer">
+                        <p>Price: @item.Price</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

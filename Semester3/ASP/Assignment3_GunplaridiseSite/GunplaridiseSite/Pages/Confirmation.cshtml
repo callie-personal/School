@@ -1,0 +1,11 @@
+﻿@page
+@model GunplaridiseSite.Pages.ConfirmationModel
+@{
+	var invoiceNumber = Request.Query["InvoiceNumber"];
+
+}
+
+<h4>Thank you for your purchase!</h4>
+<p>
+	Your invoice number is: <strong>@invoiceNumber</strong>;
+</p>

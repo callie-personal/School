@@ -1,0 +1,68 @@
+﻿<Window x:Class="NorthwindDataBindingDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NorthwindDataBindingDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="HomeImage" UriSource="Images/home.png"/>
+            <BitmapImage x:Key="EmployeeImage" UriSource="Images/employees.png"/>
+            <BitmapImage x:Key="CustomerImage" UriSource="Images/customers.png"/>
+            <BitmapImage x:Key="ProductImage" UriSource="Images/products.png"/>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Pages">
+                <MenuItem x:Name="Home" Header="_Home" Click="HomeButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource HomeImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Employee" Header="_Employee" Click="EmployeeButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource EmployeeImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Customer" Header="_Customer" Click="CustomerButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource CustomerImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Product" Header="_Product" Click="ProductButton_Click">
+                    <MenuItem.Icon>
+                        <Image Source="{StaticResource ProductImage}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBar DockPanel.Dock="Left">
+            <StackPanel Orientation="Vertical" Width="50">
+                <Button x:Name="HomeButton" ToolTip="Go to Home" Click="HomeButton_Click">
+                    <Button.Content>
+                        <Image Source="{StaticResource HomeImage}" Width="32" Height="32"/>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="EmployeeButton" ToolTip="View Employees" Click="EmployeeButton_Click">
+                    <Button.Content>
+                        <Image Source="{StaticResource EmployeeImage}" Width="32" Height="32"/>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="CustomerButton" ToolTip="View Customers" Click="CustomerButton_Click">
+                    <Button.Content>
+                        <Image Source="{StaticResource CustomerImage}" Width="32" Height="32"/>
+                    </Button.Content>
+                </Button>
+                <Button x:Name="ProductButton" ToolTip="View Products" Click="ProductButton_Click">
+                    <Button.Content>
+                        <Image Source="{StaticResource ProductImage}" Width="32" Height="32"/>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+        </ToolBar>
+        <Frame x:Name="mainFrame" DockPanel.Dock="Bottom" Width="Auto" Height="Auto" NavigationUIVisibility="Hidden"></Frame>
+    </DockPanel>
+</Window>

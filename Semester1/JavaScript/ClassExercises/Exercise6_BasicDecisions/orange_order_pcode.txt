@@ -1,0 +1,10 @@
+//Pseudo code of the Orange Orders Program (orange_orders.js)
+//Complete the pseudocode in this file
+/*
+Calculate the cost of a shipment of orange_orders
+Prompt user for amount of oranges
+Use 1.99 as per pound cost of oranges
+Use 7.50 for flat shipping rate
+Display final cost of Order
+If order is > 100lbs reduce shipping by 1.50
+*/

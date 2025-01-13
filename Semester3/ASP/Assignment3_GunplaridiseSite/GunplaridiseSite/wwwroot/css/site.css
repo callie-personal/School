@@ -1,0 +1,158 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+a {
+    color: black;
+}
+
+#FrontPageImage:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.index_card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.details-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-img-top {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.index_card {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    height: 370px;
+    border: thin solid #000000;
+    margin: 10px 10px 10px 0; /* Added margin-right to create horizontal spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-body {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.card-footer {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+}
+
+.btn-primary {
+    margin-bottom: 20px;
+    border: none;
+}
+
+/* Hide scrollbar */
+.card-body::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar */
+}
+
+.navbar {
+    background-color: #2c52b3;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.FrontPage {
+    background-color: black;
+    color: white;
+}
+
+.frontPageImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.frontPageImage:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.cart_item {
+    display: flex;
+}
+
+.cart_item .card-body {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.cartNumber {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    color: #2c52b3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+#shopping-cart-icon {
+    display: inline-block;
+}
+
+.payment-form {
+    width: 60%;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+

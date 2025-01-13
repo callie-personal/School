@@ -1,0 +1,42 @@
+﻿@page
+@model GunplaridiseSite.Pages.Admin.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+@foreach (var item in Model.Gunpla)
+{
+    <div class="row row-admin">
+
+        <div class="col-md-4" id="new-release">
+			<img src="/uploads/@item.ImageFilename" class="img-fluid" />
+		</div>
+
+		<div class="col-md-8">
+			<h4>@item.GunplaName</h4>
+			<p>
+				Grade: @item.Grade.GradeName
+				<br />
+				Description: @item.Description
+				<br />
+				Release: @item.ReleaseDate
+				<br />
+				Price: @item.Price
+			</p>
+
+			<p>
+				<a asp-page="./Edit" asp-route-id="@item.GunplaId">Edit</a> |
+				<a asp-page="./Details" asp-route-id="@item.GunplaId">Details</a> |
+				<a asp-page="./Details2" asp-route-id="@item.GunplaId">Details2</a> |"
+				<a asp-page="./Delete" asp-route-id="@item.GunplaId">Delete</a>
+			</p>
+		</div>
+    </div>
+}

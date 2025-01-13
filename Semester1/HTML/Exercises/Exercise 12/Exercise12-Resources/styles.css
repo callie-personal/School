@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Styles for Acme Lawn Care */
+body {
+	background-image: url('grass_seamless_pattern.jpg');
+	font: 22px Verdana, Georgia, sans-serif;
+}
+
+header {
+	margin-top: 0;
+	font-size: 30px;
+}
+
+h1,h2 {
+	color: white;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+article {
+	/* Progressive enhancement */
+	background-color: white;
+	background-color: rgba(255,255,255,0.7);
+	
+	/* Progressive enhancement */
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	
+	padding: 2%;
+	overflow: auto;
+}
+
+article h3 {
+	font-size: 25px;
+	margin-top: 0;
+}
+
+footer {
+	border-top: 3px solid white;
+	color: white;
+}

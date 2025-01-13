@@ -1,0 +1,35 @@
+﻿@page
+@model LastAirbenderCollection.Pages.CharacterAdmin.IndexModel
+
+@{
+    ViewData["Title"] = "Last Airbender Characters";
+}
+
+<h1>Last Airbender Characters</h1>
+
+<p>
+    <a asp-page="Create" type="button" class="btn btn-info">Create New</a>
+</p>
+
+@foreach (var item in Model.Characters) {
+            <div class="row row-characteradmin">
+                <div class="col-md-3">
+                    <img src="~/images/@item.FileName" class="img-fluid" />
+                </div>
+                
+                <div class="col-md-9" id="details">
+                    <h4>Name: @item.Name</h4>
+                    <p>
+                        Age: @item.Age <br />
+                        Nation: @item.Category.Nation <br />
+                        <a asp-page="./Edit" asp-route-id="@item.CharacterId" type="button" class="btn btn-secondary">Edit</a>
+                        <a asp-page="./Delete" asp-route-id="@item.CharacterId" type="button" class="btn btn-danger">Delete</a>
+                    </p>
+                </div>
+
+            <p>
+
+
+            </p>
+        </div>
+}

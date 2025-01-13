@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English/French Translator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>English/French Translator</h1>
+        <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+        <br>
+        <select id="direction">
+            <option value="en-to-fr">English to French</option>
+            <option value="fr-to-en">French to English</option>
+        </select>
+        <br>
+        <button onclick="translateText()">Translate</button>
+        <h2>Translation:</h2>
+        <p id="outputText"></p>
+    </div>
+
+    <script src="static/translate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\bin\Debug\Calculator.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\bin\Debug\Calculator.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\obj\Debug\Calculator.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\Calculator\obj\Debug\Calculator.pdb

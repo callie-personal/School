@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+	NSCC Inspire Conference Styles
+*/
+
+#myReport{
+	border: 1px solid black;
+	height: 100px;
+	width: 50%;
+}
+
+#itinerary, footer {
+	margin-top: 50px;
+	border-top: 1px solid gray;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+#mainSchedule{
+	width: 100%;
+}
+
+th{
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;;
+}
+
+td{
+	vertical-align: top;
+}
+
+#lunchPrize{
+	text-align: center;
+}
+
+thead th{
+	background-color: beige;
+}
+
+th{
+	background-color: lightblue;
+}

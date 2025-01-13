@@ -1,0 +1,23 @@
+/*  Author: Callie Pretty
+    Date: February 20 2023
+*/
+@charset "UTF-8";
+h2{
+    font-size: 300%;
+}
+
+strong{
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+div{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+body {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+  }

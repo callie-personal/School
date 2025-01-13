@@ -1,0 +1,28 @@
+﻿@page
+@model GunplaridiseSite.Pages.FeaturedModel
+@{
+    var sortedGunpla = Model.Gunpla.OrderByDescending(g => g.ReleaseDate).ToList();
+}
+
+<h1>Featured</h1>
+
+<div class="index_container">
+    <div class="row">
+        @foreach (var item in sortedGunpla)
+        {
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="index_card center-bottom">
+                    <a href="./Details?id=@item.GunplaId">
+                        <img src="/uploads/@item.ImageFilename" class="card-img-top" />
+                    </a>
+                    <div class="card-body">
+                        <h6 class="card-title">@item.GunplaName</h6>
+                    </div>
+                    <div class="card-footer">
+                        <p>Price: @item.Price</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

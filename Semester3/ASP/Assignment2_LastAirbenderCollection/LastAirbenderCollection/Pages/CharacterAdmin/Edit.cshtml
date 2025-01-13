@@ -1,0 +1,50 @@
+﻿@page
+@model LastAirbenderCollection.Pages.CharacterAdmin.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Character</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Character.CharacterId" />
+            <div class="mb-3">
+                <label asp-for="FileUpload" class="form-label"></label><br>
+                <input asp-for="FileUpload" class="form-control" />
+                <span asp-validation-for="FileUpload" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Name" class="control-label"></label>
+                <input asp-for="Character.Name" class="form-control" />
+                <span asp-validation-for="Character.Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Age" class="control-label"></label>
+                <input asp-for="Character.Age" class="form-control" />
+                <span asp-validation-for="Character.Age" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Character.Category.CategoryId" class="control-label"></label>
+                <select asp-for="Character.Category.CategoryId" class="form-control" asp-items="Model.CategoryOptions"></select>
+                <span asp-validation-for="Character.Category.CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

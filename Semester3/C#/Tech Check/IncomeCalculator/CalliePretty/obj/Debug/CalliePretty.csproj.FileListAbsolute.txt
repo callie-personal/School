@@ -1,0 +1,17 @@
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\CalliePretty.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\CalliePretty.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Calculator.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Calculator.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\obj\Debug\CalliePretty.csproj.AssemblyReference.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\obj\Debug\CalliePretty.csproj.CoreCompileInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\obj\Debug\CalliePretty.csproj.CopyComplete
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\obj\Debug\CalliePretty.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\Tech Check\CalliePretty\CalliePretty\obj\Debug\CalliePretty.pdb

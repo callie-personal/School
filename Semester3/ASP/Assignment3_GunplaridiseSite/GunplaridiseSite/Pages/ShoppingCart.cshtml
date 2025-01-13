@@ -1,0 +1,59 @@
+﻿@page
+@model GunplaridiseSite.Pages.ShoppingCartModel
+@{
+}
+
+<div class="index_container">
+    <div class="row">
+        <h2>Shopping Cart</h2>
+
+        @{
+            // Getting items in the cart and grouping them
+            var groupedCartItems = Model.GetCart()
+            //grouping the items by their id
+            .GroupBy(i => i)
+            //creating a new object with the item id and the quantity of the item
+            .Select(group => new { ItemId = group.Key, Quantity = group.Count() })
+            .ToList();
+
+            bool emptyCart = Model.IsCartEmpty();
+
+        }
+
+        @if (emptyCart)
+        {
+            foreach (var item in groupedCartItems)
+            {
+                var gunpla = Model.GetGunplaById(item.ItemId);
+
+                @if (gunpla != null)
+                {
+                    <div class="cart_item">
+                        <a href="./Details?id=@gunpla.GunplaId">
+                            <img src="/uploads/@gunpla.ImageFilename" class="card-img-top" />
+                        </a>
+                        <div class="card-body">
+                            <h6 class="card-title">@gunpla.GunplaName</h6>
+                            <p>Quantity: @item.Quantity</p>
+                            <p>Price: $@(gunpla.Price * item.Quantity)</p>
+                        </div>
+                    </div>
+                }
+            }
+
+            <div class="col-md-3">
+                <br />
+                <a href="/Checkout" class="btn btn-primary">Checkout</a>
+            </div>
+        } else  
+        {
+
+            <div class="col-md-6">
+                <p>Your cart is empty.</p>
+                <a href="/Index" class="btn btn-primary">Keep Shopping</a>
+            </div>
+        }
+        
+    </div>
+</div>
+

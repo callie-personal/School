@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*<!-- Author:  Callie Pretty-->*/
+@media only screen and (max-width: 480px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}  
+@media only screen and (min-width: 769px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border-style: solid;
+    border-radius: 25px;
+    max-width:960px;
+  }
+
+
+img {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .myContact {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+  }
+
+  .mySummary{
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 1;
+  }
+
+  .mySkills{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3 / 3;
+    margin-left: 10px;
+  }
+
+  .myEducation{
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+        margin-left: 10px;
+  }
+}

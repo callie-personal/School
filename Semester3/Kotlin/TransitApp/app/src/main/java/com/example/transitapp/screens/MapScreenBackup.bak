@@ -1,0 +1,107 @@
+package com.example.transitapp.screens
+
+import android.util.Log
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.viewinterop.AndroidView
+import com.example.transitapp.MainViewModel
+import com.mapbox.maps.MapView
+import com.mapbox.maps.MapboxExperimental
+import com.mapbox.maps.Style
+import com.mapbox.maps.extension.style.style
+
+
+@OptIn(MapboxExperimental::class)
+
+@Composable
+fun MapScreen(mainViewModel: MainViewModel) {
+    val context = LocalContext.current
+    val feed by mainViewModel.feedStateFlow.collectAsState()
+    val entityList = feed?.entityList.orEmpty()
+    val vehicles = entityList.filter { it.hasVehicle() }.map { it.vehicle }
+
+    val coroutineScope =  rememberCoroutineScope()
+    Log.d("MapScreen", "Feed data: $feed")
+
+
+    AndroidView(factory = { context ->
+        val mapView = MapView(context)
+        val mapboxMap = mapView.mapboxMap
+        val viewAnnotationManager = mapView.viewAnnotationManager
+
+        Log.d("MapScreen2", "Feed data: $feed")
+
+        mapboxMap.loadStyle(
+            styleExtension = style(Style.MAPBOX_STREETS) {
+
+
+//                for (vehicle in vehicles) {
+//                    Log.d("MainViewModel", "Bus ${vehicle.vehicle.label} is at ${vehicle.position.latitude}, ${vehicle.position.longitude}")
+//                }
+//                val view = TextView(context).apply {
+//                    text = "Hello, World!"
+//                    layoutParams = FrameLayout.LayoutParams(WRAP_CONTENT, WRAP_CONTENT)
+//                }
+//
+//                val position = Point.fromLngLat(-63.5752, 44.6488) // Replace with your annotation's coordinates
+//                mapboxMap.setCamera(CameraOptions.Builder().center(position).zoom(14.0).build())
+//
+//                val viewAnnotationOptions = ViewAnnotationOptions.Builder().apply {
+//                    geometry(Point.fromLngLat(-63.5752, 44.6488))
+//                    allowOverlap(true)
+////                    build()
+//                }
+//                viewAnnotationManager.addViewAnnotation(view, viewAnnotationOptions.build())
+
+
+            }
+        )
+        mapView
+    }, modifier = Modifier.fillMaxSize())
+}
+
+
+//@SuppressLint("MissingInflatedId")
+//@Composable
+//fun MapScreen(mainViewModel: MainViewModel) {
+//    val context = LocalContext.current
+//    val feed by mainViewModel.feedStateFlow.collectAsState()
+////    Log.d("MapScreen", "Feed data: $feed")
+//
+//    AndroidView(
+//        factory = { context ->
+//            val mapView = MapView(context)
+//            val mapboxMap = mapView.getMapboxMap()
+//            mapboxMap.loadStyleUri(Style.MAPBOX_STREETS) { style ->
+//                // After the style is loaded, add annotations
+//                feed?.entityList?.forEach { entity ->
+//                    if (entity.hasVehicle()) {
+//                        val vehicle = entity.vehicle
+//                        val position = Point.fromLngLat(vehicle.position.longitude.toDouble(),
+//                            vehicle.position.latitude.toDouble()
+//                        )
+//                        val routeId = vehicle.vehicle.id
+//
+//                        val view = LayoutInflater.from(context).inflate(R.layout.annotation_layout, null)
+//                        val textView = view.findViewById<TextView>(R.id.annotationTextView)
+//                        textView.text = routeId
+//
+//                        val viewAnnotationOptions = ViewAnnotationOptions.Builder()
+//                            .geometry(position)
+//                            .allowOverlap(true)
+//                            .build()
+//
+//                        // Add the view annotation to the map
+//                    }
+//                }
+//            }
+//            mapView
+//        },
+//        modifier = Modifier.fillMaxSize()
+//    )
+//}

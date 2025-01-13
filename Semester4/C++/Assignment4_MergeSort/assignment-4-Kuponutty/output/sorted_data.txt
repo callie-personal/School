@@ -1,0 +1,20 @@
+69	Argile	Damien	8 Arkansas Way	Carleton-sur-Mer	Québec	P0T	612-802-1422	Male	4	0	office	N	53.46
+56	Arling	Ulric	250 Summit Street	Bells Corners	Ontario	K2R	341-118-9255	Male	49	7	factory	Y	12.13
+72	Ascroft	Chrisse	8312 Fairfield Junction	Sainte-Martine	Québec	A1C	750-233-5763	Male	75	22	factory	Y	46.11
+64	Arlt	Faun	84 Kedzie Avenue	Chilliwack	British Columbia	N5L	857-694-5917	Female	42	97	office	N	25.4
+3	Ashcroft	Dominique	21256 Porter Terrace	Maskinongé	Québec	T7A	745-904-6373	Male	50	68	factory	Y	25.04
+76	Baszkiewicz	Blair	84 Morningstar Place	Danville	Québec	J0A	643-714-2561	Male	65	81	factory	Y	65.0
+40	Bell	Ailsun	779 Burning Wood Court	Morinville	Alberta	T8R	993-387-1800	Female	96	33	sales	Y	96.01
+99	Benoist	Goraud	19324 Lakewood Gardens Center	Biggar	Saskatchewan	N1S	104-765-6327	Male	19	5	sales	Y	68.36
+47	Beyer	Cassandre	7577 Lillian Avenue	Rayside-Balfour	Ontario	G9T	723-611-7628	Female	35	72	factory	N	54.29
+97	Bock	Elvyn	78069 Killdeer Street	Sainte-Adèle	Québec	J8B	378-964-8661	Male	9	52	office	Y	2.94
+61	Boothby	Denyse	7076 Cambridge Circle	Assiniboia	Saskatchewan	H3C	839-756-7590	Female	30	69	factory	Y	71.67
+22	Boxhill	Rodd	12 Jay Alley	Brampton	Ontario	L7A	200-151-3494	Male	33	22	office	Y	81.35
+12	Brewitt	Cherie	22 Rockefeller Plaza	Sainte-Sophie	Québec	J5J	667-418-8332	Female	91	32	factory	Y	31.45
+51	Buxsey	D'arcy	49 Springview Lane	Orangeville	Ontario	T1J	445-754-1783	Male	30	0	office	N	16.19
+71	Caberas	Laurent	91306 Loeprich Terrace	Sundre	Alberta	L9H	588-401-8131	Male	95	0	factory	N	42.09
+38	Camell	Hinda	42257 Fuller Point	Sechelt	British Columbia	K1B	105-904-6269	Female	90	13	factory	Y	55.19
+16	Carnaman	Kathie	093 Ridgeview Way	Harbour Breton	Newfoundland and Labrador	M4N	655-307-8510	Female	90	29	factory	Y	84.16
+53	Carpenter	Gan	8051 Red Cloud Junction	Drayton Valley	Alberta	T7A	147-836-2786	Male	67	49	office	Y	51.26
+31	Ciementini	Romona	988 3rd Street	Stratford	Ontario	C1B	312-969-2547	Female	65	37	office	Y	92.92
+80	Corinton	Rosalinda	5619 Boyd Trail	Woodstock	Ontario	E7M	438-339-3284	Female	52	75	factory	Y	47.36

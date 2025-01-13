@@ -1,0 +1,51 @@
+/* Styles for Acme Paint Shop */
+/*  Author: Callie Pretty
+    Date: Feb 19 2023
+    */
+body { 	
+    font-family: arial;
+    background-color: #791d1d;
+    color: #E0E0E0;
+}
+
+header, footer { 
+    text-align: center; 
+    background-color: #791d1d;
+    color: #E0E0E0;
+}
+
+article h3 {
+    text-decoration: underline; 
+}
+
+a { 
+    text-decoration : none;
+    color: #E0E0E0;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+a:visited { 
+    color: #909090; 
+} 
+
+#philosophy p { 
+    padding-left: 20px; 
+}
+
+.important {
+    font-weight: bold; 
+    font-style: italic; 
+    font-size: 1.2em;
+}
+
+.onsale::after { 
+    content: " (ON SALE TODAY!!!)"; 
+    font-style: italic; 
+}
+
+#locationmap { 
+    padding-left: 50px; 
+}

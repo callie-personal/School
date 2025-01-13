@@ -1,0 +1,14 @@
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\bin\Debug\net8.0\ChatServer2.exe
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\bin\Debug\net8.0\ChatServer2.deps.json
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\bin\Debug\net8.0\ChatServer2.runtimeconfig.json
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\bin\Debug\net8.0\ChatServer2.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\bin\Debug\net8.0\ChatServer2.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.AssemblyInfoInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.AssemblyInfo.cs
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.csproj.CoreCompileInputs.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\refint\ChatServer2.dll
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.pdb
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ChatServer2.genruntimeconfig.cache
+C:\Users\dark_\OneDrive\Documents\School\Semester 3\OOP\ChatServer\ChatServer2\obj\Debug\net8.0\ref\ChatServer2.dll

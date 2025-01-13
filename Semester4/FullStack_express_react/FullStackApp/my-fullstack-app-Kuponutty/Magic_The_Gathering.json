@@ -1,0 +1,141 @@
+[
+  {
+    "_id": { "$oid": "66f1e77de023909df895ee40" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Ancestral Recall",
+    "image_link": "https://cards.scryfall.io/large/front/e/1/e1f3c82b-fb8e-4fa3-b7c0-b5edc61c5c8d.jpg",
+    "mana_cost": "{U}",
+    "converted_mana_cost": 1,
+    "card_text": "Target player draws three cards.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["blue"]
+  },
+  {
+    "_id": { "$oid": "66f1e7a9e023909df895ee42" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Black Lotus",
+    "image_link": "https://cards.scryfall.io/large/front/b/4/b409e3b8-d83f-4d68-8786-fc3b17e9b1ed.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Sacrifice Black Lotus: Add three mana of any one color.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": []
+  },
+  {
+    "_id": { "$oid": "66f1e7b9e023909df895ee44" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Time Walk",
+    "image_link": "https://cards.scryfall.io/large/front/d/3/d3f71bde-2045-4b83-b16e-56b16720f1ef.jpg",
+    "mana_cost": "{U}{U}",
+    "converted_mana_cost": 2,
+    "card_text": "Take an extra turn after this one.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["blue"]
+  },
+  {
+    "_id": { "$oid": "66f1e7c5e023909df895ee46" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Timetwister",
+    "image_link": "https://cards.scryfall.io/large/front/c/5/c5c51c8b-b63e-4e8f-b6f3-6bb7f5a58b55.jpg",
+    "mana_cost": "{U}{U}{U}",
+    "converted_mana_cost": 3,
+    "card_text": "Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["blue"]
+  },
+  {
+    "_id": { "$oid": "66f1e7d1e023909df895ee48" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Mox Pearl",
+    "image_link": "https://cards.scryfall.io/large/front/d/2/d2c91e60-f0f0-4969-bbd4-2f642cd68cb7.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Tap: Add {W}.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["white"]
+  },
+  {
+    "_id": { "$oid": "66f1e7dee023909df895ee4a" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Mox Sapphire",
+    "image_link": "https://cards.scryfall.io/large/front/1/5/15a2ae77-f78e-420c-84b6-5d84d2b40b0d.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Tap: Add {U}.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["blue"]
+  },
+  {
+    "_id": { "$oid": "66f1e7e8e023909df895ee4c" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Mox Jet",
+    "image_link": "https://cards.scryfall.io/large/front/8/3/83cf4a58-027c-4d95-b2c6-29f26ae4fa99.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Tap: Add {B}.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["black"]
+  },
+  {
+    "_id": { "$oid": "66f1e7fae023909df895ee4e" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Mox Ruby",
+    "image_link": "https://cards.scryfall.io/large/front/5/1/51e4b751-d88e-4016-8c81-0a75c6936cb5.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Tap: Add {R}.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["red"]
+  },
+  {
+    "_id": { "$oid": "66f1e813e023909df895ee50" },
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Mox Emerald",
+    "image_link": "https://cards.scryfall.io/large/front/4/e/4e7730aa-fc68-4707-b6e2-bbc983b7388e.jpg",
+    "mana_cost": "",
+    "converted_mana_cost": 0,
+    "card_text": "Tap: Add {G}.",
+    "stats": {
+      "power": null,
+      "toughness": null
+    },
+    "colours": ["green"]
+  },
+  {
+    "collectionName": "Magic the Gathering Cards",
+    "Name": "Gisath, Sun's Avatar",
+    "image_link": "https://cards.scryfall.io/large/front/b/c/bc83e5aa-f9f1-4b4b-bd54-d6c5803fc50c.jpg",
+    "mana_cost": "{3}{G}{W}{R}",
+    "converted_mana_cost": 5,
+    "card_text": "Vigilance\nWhen Gisath, Sun's Avatar attacks, you may reveal the top five cards of your library. If you do, put a dinosaur creature card from among them onto the battlefield tapped and attacking. Put the rest on the bottom of your library in a random order.",
+    "stats": {
+      "power": 6,
+      "toughness": 6
+    },
+    "colours": ["green", "white", "red"]
+  }
+]

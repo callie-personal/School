@@ -1,0 +1,7 @@
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\obj\Debug\Delegates.csproj.AssemblyReference.cache
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\W0304743\source\repos\PROG2200-Section701\Demos\Delegates\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

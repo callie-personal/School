@@ -1,0 +1,24 @@
+{
+  "name": "assignment-4b-kuponutty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-4b-Kuponutty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-4b-Kuponutty/issues"
+  },
+  "homepage": "https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-4b-Kuponutty#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17"
+  }
+}

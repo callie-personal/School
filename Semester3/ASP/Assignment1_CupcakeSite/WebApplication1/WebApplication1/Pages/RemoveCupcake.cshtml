@@ -1,0 +1,22 @@
+﻿@page
+@model CupcakeApplication.Pages.RemoveCupcakeModel
+@{
+}
+
+<h1>Remove Cupcake</h1>
+
+<h2>
+	Are you sure you want to remove this cupcake?
+</h2>
+
+<p>
+	<img src="/uploads/@Model.Cupcake.ImageFileName" class="img-fluid" />
+</p>
+
+<form method="post">
+	<input type="hidden" name="Cupcake.CupcakeId" value="@Model.Cupcake.CupcakeId" />
+	<p>
+		<input type="submit" value="Remove" class="btn btn-primary" />
+		<a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+	</p>
+</form>

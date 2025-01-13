@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Pizza Order Site</title>
+</head>
+<body>
+    <h1>Welcome to Mike's Pizza Emporium</h1>
+
+    <form onSubmit="return false">
+        <legend>Pizza Order:</legend>
+        <fieldset>
+            <legend>Customer Information:</legend>
+            First name:<br>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter first name"><br>
+            Last name:<br>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter last name"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza Selection:</legend>
+            <div id="pizza_selection"> 
+                Size:<br>
+                <input type="radio" name="size" id="small" checked> Small<br>
+                <input type="radio" name="size" id="medium"> Medium<br>
+                <input type="radio" name="size" id="large"> Large<br>
+                <input type="radio" name="size" id="x-large"> X-Large<br>
+                Toppings:<br>
+                <input type="checkbox" name="topping1" id="pepperoni"> Pepperoni<br>
+                <input type="checkbox" name="topping2" id="peppers"> Green peppers<br>
+                <input type="checkbox" name="topping3" id="onions"> Onions<br>
+                <br>
+                Premium Toppings:<br>
+                <input type="checkbox" name="topping4" id="sausage"> Italian Sausage<br>
+                <input type="checkbox" name="topping5" id="pineapple"> Pineapple<br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Delivery Location:</legend>
+            <select name="location" id="location">
+                    <option value="Halifax">Halifax</option>
+                    <option value="Dartmouth">Dartmouth</option>
+                    <option value="Lower Sackville">Lower Sackville</option>
+                    <option value="Bedford">Bedford</option>
+                    <option value="Other">Other</option>
+            </select>    
+        </fieldset>
+        <button id="process_order">Place Order</button>
+    </form>
+    <br>
+    <br>
+    <div id="order_details"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

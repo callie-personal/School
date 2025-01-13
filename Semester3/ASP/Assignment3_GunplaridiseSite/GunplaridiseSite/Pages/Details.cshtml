@@ -1,0 +1,38 @@
+﻿@page
+@model GunplaridiseSite.Pages.DetailsModel
+@{
+	var gunplaId = Request.Query["id"].ToString();
+	var gunpla = Model.Gunpla;
+	var grade = Model.Gunpla.Grade;
+}
+
+<div class="row row-admin">
+
+	<div class="col-md-6" id="details-image">
+		<img src="/uploads/@gunpla.ImageFilename" class="img-fluid" />
+	</div>
+
+	<div class="col-md-6">
+		<h4>@gunpla.GunplaName</h4>
+		<p>
+		<dd class="col-sm-10">
+		</dd>
+			Grade: @gunpla.Grade.GradeName
+			<br />
+			<br />
+			Description: @gunpla.Description
+			<br />
+			<br />
+			Release: @gunpla.ReleaseDate
+			<br />
+			<br />
+			Price: @gunpla.Price
+		</p>
+
+		<form method="post">
+			<button type="submit" class="btn btn-primary" name="addToCartBtn">Add to Cart</button>
+			<input type="hidden" name="id" value="@gunplaId" />
+		</form>
+
+	</div>
+</div>

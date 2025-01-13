@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\models\\cupcake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\models\\cupcake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\data\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\data\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\addnewcupcake.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\addnewcupcake.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\addnewcupcake.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\addnewcupcake.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\removecupcake.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\removecupcake.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\removecupcake.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\removecupcake.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\cupcakeapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\cupcakeapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|c:\\users\\dark_\\onedrive\\documents\\school\\semester 3\\web\\assignment-1-kuponutty-1\\webapplication1\\webapplication1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C973AD2F-750E-4D63-B04F-6061C2EC3AC0}|WebApplication1\\CupcakeApplication.csproj|solutionrelative:webapplication1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cupcake.cs",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Models\\Cupcake.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Cupcake.cs",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Models\\Cupcake.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Cupcake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T22:10:09.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNewCupcake.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\AddNewCupcake.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\AddNewCupcake.cshtml.cs",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\AddNewCupcake.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\AddNewCupcake.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T23:41:55.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddNewCupcake.cshtml",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\AddNewCupcake.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\AddNewCupcake.cshtml",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\AddNewCupcake.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\AddNewCupcake.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-28T22:33:59.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseClass.cs",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Data\\DatabaseClass.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\DatabaseClass.cs",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Data\\DatabaseClass.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\DatabaseClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T22:10:09.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-28T23:00:26.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-28T22:32:54.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RemoveCupcake.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\RemoveCupcake.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\RemoveCupcake.cshtml.cs",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\RemoveCupcake.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\RemoveCupcake.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T22:46:06.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RemoveCupcake.cshtml",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\RemoveCupcake.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\RemoveCupcake.cshtml",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\RemoveCupcake.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\RemoveCupcake.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-28T22:34:21.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T22:57:38.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CupcakeApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\CupcakeApplication.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\CupcakeApplication.csproj",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\CupcakeApplication.csproj",
+              "RelativeToolTip": "WebApplication1\\CupcakeApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-28T22:10:09.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\dark_\\OneDrive\\Documents\\School\\Semester 3\\WEB\\assignment-1-Kuponutty-1\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-01-28T22:32:49.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>Pizza Order Form</title>
+</head>
+<body>
+    <h1>Order your pizza here</h1>
+
+    <form id="pizzaOrder">
+        <label>Your Name</label>
+        <hr>
+        <input name="customerName" id="customerName" type="text" /><br>
+        <p>Choose the size of the pizza</p>
+
+        <input type="checkbox" id="pSizeS" name="pSize" value="pSizeS">
+        <label for="pSizeS">Small</label><br>
+
+        <input type="checkbox" id="pSizeM" name="pSize" value="pSizeM">
+        <label for="pSizeM">Medium</label><br>
+
+        <input type="checkbox" id="pSizeL" name="pSize" value="pSizeL">
+        <label for="pSizeL">Large</label><br>
+
+        <input type="checkbox" id="pSizeXL" name="pSize" value="pSizeXL">
+        <label for="pSizeXL">Extra Large</label><br>
+
+        <p>Pick the toppings</p>
+        <input type="checkbox" id="ham" name="toppings" value="ham">
+        <label for="toppings">Ham</label><br>
+        <input type="checkbox" id="mozzarella" name="toppings" value="mozzarella">
+        <label for="toppings">Mozzarella Cheese</label><br>
+        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+        <label for="toppings">Mushrooms</label><br>
+        <input type="checkbox" id="olives" name="toppings" value="olives">
+        <label for="toppings">Olives</label><br>
+        <hr>
+        <p>Pick the premium toppings</p>
+        <input type="checkbox" id="asparagus" name="ptoppings" value="asparagus">
+        <label for="ptoppings">Asparagus</label><br>
+        <input type="checkbox" id="sesame" name="ptoppings" value="sesame">
+        <label for="ptoppings">Sesame</label><br>
+        <hr>
+        <p>Delivery Area</p>
+        <select id="deliveryArea" name="deliveryArea">
+            <option value="halifax">Halifax</option>
+            <option value="dartmouth">Dartmouth</option>
+            <option value="bedford">Bedford</option>
+            <option value="lowerSackville">Lower Sackville</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <input type="submit" value="Place Order">
+    </form>
+
+    <div id="placedOrder"></div>
+
+    <script src="pizzaOrder.js"></script>
+</body>
+</html>

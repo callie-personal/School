@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Styles for Acme Lawn Care */
+/*	Author:	Callie Pretty
+	Date:	March 9 2023
+	Description: Exercise 12, responsive design
+*/
+
+h1, h2 {
+	text-align: center;
+}
+
+article img {
+	float: left;
+	margin: 5px;
+}
+
+footer {
+	text-align: center;
+}
+/*phone*/
+@media only screen and (max-width: 480px) {
+	h2 {
+	  background-color: red;
+	  font-size: 1.2em;
+	}
+	h1{
+		font-size: 1.4em;
+	}
+	article{
+		margin-bottom: 10px;
+	}
+  }
+/*tablet*/
+@media only screen and (min-width: 481px) {
+	section {
+		display: grid;
+		grid-template-rows: 100px auto auto;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 2%;
+		row-gap: 50px;
+	}
+	
+	section h2 {
+		background-color: yellow;
+		grid-row: 1 / 1;
+		grid-column: 1 / span 2;
+	}
+	
+	#mowing {
+		grid-row: 2 / 2;
+		grid-column: 1 / 1;
+	}
+	
+	#weeding {
+		grid-row: 2 / 2;
+		grid-column: 2 / 2;
+	}
+	
+	#landscaping {
+		grid-row: 3 / 3;
+		grid-column: 1 / span 2;
+		margin-bottom: 50px;
+	}
+  }
+
+  @media only screen and (min-width: 769px) {
+  }
+
+/*desktop*/
+@media only screen and (min-width: 1024px) {
+	body {
+	  background-color: blue;
+	}
+
+	section {
+		grid-column: 3fr 2 fr;
+	}
+  }
+
+

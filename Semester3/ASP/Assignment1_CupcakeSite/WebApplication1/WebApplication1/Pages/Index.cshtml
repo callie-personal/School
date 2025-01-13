@@ -1,0 +1,54 @@
+﻿@page
+@using CupcakeApplication.Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center" style="margin-bottom: 30px">
+    <h1 class="display-4">Welcome to Bake Me Crazy!</h1>
+</div>
+
+<div class="text-center" style="margin-bottom: 30px">
+	<a asp-page="/AddNewCupcake" class="btn btn-primary">Add New Cupcake</a>
+</div>
+
+<div class="w-75">
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Cupcake cupcake in Model.cupcakes)
+            {
+                <tr>
+					<td>
+						<img src="/uploads/@cupcake.ImageFileName" class="img-fluid" />
+                    </td>
+
+                    <td>
+                        @cupcake.Name
+                    </td>
+
+                    <td>
+						@cupcake.Description
+                    </td>
+
+                    <td>
+                        @cupcake.Price.ToString("C")
+                    </td>
+
+                    <td>
+                        <a asp-page="/RemoveCupcake" asp-route-id="@cupcake.CupcakeId" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

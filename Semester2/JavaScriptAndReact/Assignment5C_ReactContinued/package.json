@@ -1,0 +1,19 @@
+{
+  "name": "assignment-5c-kuponutty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-5c-Kuponutty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-5c-Kuponutty/issues"
+  },
+  "homepage": "https://github.com/NSCC-ITC-Fall2023-PROG2700-700-MDe/assignment-5c-Kuponutty#readme"
+}
